@@ -1,0 +1,85 @@
+<style>
+
+body {
+  background: url(../images/cork-wallet.png);
+}
+
+header.header {
+	
+}
+
+h2.name {
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	padding: 20px;
+	margin-left: 100px;
+	font-size: 15px;
+}
+
+
+section.APC {
+	background-color: white;
+	color: gray;
+	float: right;
+	margin-top: 20px;
+
+}
+
+section.about {
+	background-color: green;
+	float: left;
+	clear: both;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-bottom: 20px;
+
+
+}
+
+h1.aboutme {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #777777;
+	padding-bottom: 20px; 
+}
+
+p.p {
+	color: #777777;
+	overflow: auto;
+	margin: 40px;
+}
+
+img.ProfilePic {
+	float: left;
+}
+
+aside.Connect {
+	background-color: orange;
+	float: left;
+	margin-left: -430px;
+	padding: 10px;
+}
+
+h2.conwme {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #777777;
+	padding-bottom: 5px;
+}
+
+div.connectpics {
+	text-align: center;
+	
+}
+
+footer.footer {
+	background-color: #666666;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #4aaaa5;
+
+
+}
