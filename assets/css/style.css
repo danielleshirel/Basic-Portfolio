@@ -1,39 +1,41 @@
-<style>
 
-body {
-  background: url(../images/cork-wallet.png);
+
+ body { background-image: url("../images/seamless_paper_texture.png");
+ 
 }
 
-header.header {
-	
+header {
+	padding: 20px;
 }
 
 h2.name {
 	background-color: #4aaaa5;
 	color: white;
-	float: left;
-	padding: 20px;
+	padding: 30px;
 	margin-left: 100px;
-	font-size: 15px;
+	margin-right: 700px;
+	font-size: 20px;
+	float: left;
 }
 
 
 section.APC {
 	background-color: white;
 	color: gray;
-	float: right;
-	margin-top: 20px;
+	text-align: right;
+	padding-right: 10px;
 
 }
 
 section.about {
-	background-color: green;
+	background-color: white;
 	float: left;
 	clear: both;
 	margin-left: 100px;
 	margin-right: 500px;
 	margin-bottom: 20px;
-
+	margin-top: 20px;
+	padding: 10px;
 
 }
 
@@ -42,22 +44,179 @@ h1.aboutme {
 	border-bottom: solid;
 	border-color: #777777;
 	padding-bottom: 20px; 
+
 }
+
+
+img.ProfilePic {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+}
+
 
 p.p {
 	color: #777777;
 	overflow: auto;
-	margin: 40px;
+	margin: 20px;
+	overflow-wrap: left;
 }
 
-img.ProfilePic {
+
+section.Contact {
+	background-color: white;
 	float: left;
+	clear: both;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	height: 500px;
+	width: 500px;
+
+}
+
+h2 {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #777777;
+	padding-bottom: 5px; 
+}
+
+input.Name {
+	margin: 10px;
+	height: 20px;
+	width: 200px;
+}
+
+input.Email {
+	margin: 10px;
+	height: 20px;
+	width: 200px;
+}
+
+
+input.Message {
+	margin: 10px;
+	height: 200px;
+	width: 450px;
+}
+
+input.Submit {
+	clear: both;
+	background-color: #4aaaa5;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	font-size: 10px;
+	text-align: center;
+	width: 100px;
+}
+
+
+section.Potfolio {
+	background-color: white;
+	float: left;
+	clear: both;
+	margin-left: 20px;
+	margin-right: 500px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	width: 450px;
+	height: 600px;
+
+}
+
+h2 {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #777777;
+	padding-bottom: 5px; 
+	margin: 10px;
+}
+
+div.img {
+	margin: 10px;
+	margin-right: 30px;
+}
+
+
+p.Hangman {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -50px;
+	position: absolute;
+	z-index: 2;
+}
+
+p.RPGGame {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -50px;
+	margin-left: 185px;
+	position: absolute;
+	z-index: 2;
+}
+
+p.TriviaGame {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -50px;
+	position: absolute;
+	z-index: 2;
+
+}
+
+p.RutgersInfoWidget {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -50px;
+	margin-left: 185px;
+	position: absolute;
+	z-index: 2;
+}
+
+p.RockPaperScissors {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -50px;
+	position: absolute;
+	z-index: 2;
 }
 
 aside.Connect {
-	background-color: orange;
+	background-color: white;
 	float: left;
 	margin-left: -430px;
+	margin-top: 20px;
 	padding: 10px;
 }
 
@@ -78,6 +237,7 @@ footer.footer {
 	color: white;
 	clear: both;
 	text-align: center;
+	font-size: 10px;
 	padding: 20px;
 	border-top: 5px solid #4aaaa5;
 

@@ -10,38 +10,42 @@
 
 <body>
 	
-<h1>Danielle Frankel</h1>
-
-	<section>
+<header>
+	<h2 class="name">Danielle Frankel</h2> 
+	<section class="APC"> 
 		<div>About | Protfolio | Contact</div>
 	</section>
+</header>
 
+<div>
 
-<h2>Contact</h2>
+<section class="Contact">
+	<h2>Contact</h2>
 
-<form action="/action_page.php">
-  Name: <input type="text" name="name">
-  <br>
-  Email: <input type="text" name="Email">
-  <br>
-  Message: <input type="text" name="Message">
-  <br>
-  <input type="submit" value="Submit">
-</form>
-	
+	<form action="/action_page.php">
+  		Name <br> <input type="text" name="Name" class="Name"> <br>
+  		Email <br> <input type="text" name="Email" class="Email"> <br>
+  		Message <br> <input type="text" name="Message" class="Message"> <br>
+  		<input type="submit" value="Submit" class="Submit">
+	</form>
+</section>
 
-<section>
-		<h2>Connect With Me</h2>
-			<div> 
-				<img src="#"GitHub>
-				<img src="#"Linkdin>
-				<img src="#"Stack>
+	<aside class="Connect">
+		<h2 class="conwme">Connect With Me</h2>
+			<div class="connectpics"> 
+				<img src="./assets/images/github-128.png" alt="github" height="50px" width="50px"> 
+				<img src="./assets/images/linkedin-128.png" alt="linkedin" height="50px" width="50px">
+				<img src="./assets/images/stackoverflow-128.png" alt="stackoverflow" height="50px" width="50px">
 			</div>
-	</section>
+	</aside> 
 
-<footer>
+
+</div>
+
+<footer class="footer">
 	© Copyright 2018 Danielle Frankel
 </footer>
 
-
 </body>
+
+</html>
