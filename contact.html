@@ -2,42 +2,69 @@
 
 <head>
 	<title>
-		Danielle Frankel's Protfolio
+		Danielle Frankel's Portfolio
 	</title>
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 	
 <header>
-	<h2 class="name">Danielle Frankel</h2> 
-	<section class="APC"> 
-		<div>About | Protfolio | Contact</div>
-	</section>
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">Danielle Frankel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="./protfolio.html">Portfolio</a>
+      <a class="nav-item nav-link active" href="./contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
 </header>
 
 <div>
 
-<section class="Contact">
-	<h2>Contact</h2>
+<div class="container">	
+<div class="row">
 
-	<form action="/action_page.php">
-  		Name <br> <input type="text" name="Name" class="Name"> <br>
-  		Email <br> <input type="text" name="Email" class="Email"> <br>
-  		Message <br> <input type="text" name="Message" class="Message"> <br>
-  		<input type="submit" value="Submit" class="Submit">
-	</form>
-</section>
+<div class="col-sm-6">
+<form> <h5 class="form">Contact</h5>
+<div class="form-group">
+    <label for="exampleFormControlInput1">Full Name</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+</div>
+<div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+</div>
+<input class="btn btn-primary" type="submit" value="Submit">
+</form>
+</div>
 
-	<aside class="Connect">
-		<h2 class="conwme">Connect With Me</h2>
-			<div class="connectpics"> 
-				<img src="./assets/images/github-128.png" alt="github" height="50px" width="50px"> 
-				<img src="./assets/images/linkedin-128.png" alt="linkedin" height="50px" width="50px">
-				<img src="./assets/images/stackoverflow-128.png" alt="stackoverflow" height="50px" width="50px">
-			</div>
-	</aside> 
+  <div class="col-sm-6">
+    <div class="card w-50">
+      <div class="card-body">
+        <h5 class="card-title">Connect With Me</h5>
+        <img src="./assets/images/github-128.png" alt="github" height="50px" width="50px"> 
+        <img src="./assets/images/linkedin-128.png" alt="linkedin" height="50px" width="50px">
+		<img src="./assets/images/stackoverflow-128.png" alt="stackoverflow" height="50px" width="50px">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  
+</div>
+
 
 
 </div>

@@ -1,240 +1,170 @@
 
 
- body { background-image: url("../images/seamless_paper_texture.png");
+body { background-image: url("../images/seamless_paper_texture.png");
  
 }
 
-header {
+nav{
+	background-color: white;
+}
+
+a.navbar-brand {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	margin-right: 630px;
+	margin-left: 30px;
+}
+
+div.col-sm-6 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+div.About {
+	background-color: white;
 	padding: 20px;
 }
 
-h2.name {
-	background-color: #4aaaa5;
-	color: white;
-	padding: 30px;
-	margin-left: 100px;
-	margin-right: 700px;
-	font-size: 20px;
-	float: left;
-}
-
-
-section.APC {
-	background-color: white;
-	color: gray;
-	text-align: right;
-	padding-right: 10px;
-
-}
-
-section.about {
-	background-color: white;
-	float: left;
-	clear: both;
-	margin-left: 100px;
-	margin-right: 500px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px;
-
-}
-
-h1.aboutme {
+h5.About {
 	color: #4aaaa5;
 	border-bottom: solid;
 	border-color: #777777;
-	padding-bottom: 20px; 
+	padding-bottom: 10px; 
+	margin-bottom: 30px;
 
 }
 
-
-img.ProfilePic {
+img.profilepic {
 	float: left;
-	height: 200px;
-	width: 200px;
-	margin: 10px;
+	margin-right: 10px;
 }
 
-
-p.p {
-	color: #777777;
-	overflow: auto;
-	margin: 20px;
-	overflow-wrap: left;
-}
-
-
-section.Contact {
-	background-color: white;
-	float: left;
-	clear: both;
-	margin-left: 100px;
-	margin-right: 500px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px;
-	height: 500px;
-	width: 500px;
-
-}
-
-h2 {
+h5.card-title {
 	color: #4aaaa5;
 	border-bottom: solid;
 	border-color: #777777;
-	padding-bottom: 5px; 
-}
-
-input.Name {
-	margin: 10px;
-	height: 20px;
-	width: 200px;
-}
-
-input.Email {
-	margin: 10px;
-	height: 20px;
-	width: 200px;
+	padding-bottom: 10px; 
+	margin-bottom: 30px;
 }
 
 
-input.Message {
-	margin: 10px;
-	height: 200px;
-	width: 450px;
+h5.form {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #777777;
+	padding-bottom: 10px; 
+	margin-bottom: 30px;
 }
 
-input.Submit {
-	clear: both;
+input.btn {
 	background-color: #4aaaa5;
-	color: white;
-	margin: 10px;
-	padding: 10px;
-	font-size: 10px;
-	text-align: center;
-	width: 100px;
+	border: #4aaaa5;
+}
+
+h5.portfolio {
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #777777;
+	padding-bottom: 10px; 
+	margin-bottom: 10px;
 }
 
 
-section.Potfolio {
+form {
 	background-color: white;
-	float: left;
-	clear: both;
-	margin-left: 20px;
-	margin-right: 500px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px;
-	width: 450px;
 	height: 600px;
-
+	width: 500px;
+	padding: 10px;
 }
 
-h2 {
-	color: #4aaaa5;
-	border-bottom: solid;
-	border-color: #777777;
-	padding-bottom: 5px; 
-	margin: 10px;
+section.portfolio {
+	background-color: white;
+	height: 550px;
+	width: 450px;
+	padding: 10px;
+	position: relative;
 }
 
-div.img {
-	margin: 10px;
-	margin-right: 30px;
+img.portpic {
+	margin: 20px;
 }
-
 
 p.Hangman {
 	background-color: #4aaaa5;
-	color: white;
+	color: #F8F8FF;
 	font-size: 15px;
 	text-align: center;
-	width: 180px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -50px;
+	padding: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
 	position: absolute;
-	z-index: 2;
+	top: 155px;
+	left: 15px;
+
 }
 
 p.RPGGame {
 	background-color: #4aaaa5;
-	color: white;
+	color: #F8F8FF;
 	font-size: 15px;
 	text-align: center;
-	width: 180px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -50px;
-	margin-left: 185px;
+	padding: 10px;
+	padding-left: 53px;
+	padding-right: 55px;
 	position: absolute;
-	z-index: 2;
+	top: 155px;
+	right: 25px;
+
 }
 
 p.TriviaGame {
 	background-color: #4aaaa5;
-	color: white;
+	color: #F8F8FF;
 	font-size: 15px;
 	text-align: center;
-	width: 180px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -50px;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 55px;
 	position: absolute;
-	z-index: 2;
-
+	top:325px;
+	right: 25px;
 }
 
 p.RutgersInfoWidget {
 	background-color: #4aaaa5;
-	color: white;
+	color: #F8F8FF;
 	font-size: 15px;
 	text-align: center;
-	width: 180px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -50px;
-	margin-left: 185px;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 20px;
 	position: absolute;
-	z-index: 2;
+	top:325px;
+	left: 15px;
+	
+
 }
 
 p.RockPaperScissors {
 	background-color: #4aaaa5;
-	color: white;
+	color: #F8F8FF;
 	font-size: 15px;
 	text-align: center;
-	width: 180px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: -50px;
-	position: absolute;
-	z-index: 2;
-}
-
-aside.Connect {
-	background-color: white;
-	float: left;
-	margin-left: -430px;
-	margin-top: 20px;
 	padding: 10px;
+	padding-left: 20px;
+	padding-right: 24px;
+	position: absolute;
+	top: 500px;
+	left: 15px;
 }
 
-h2.conwme {
-	color: #4aaaa5;
-	border-bottom: solid;
-	border-color: #777777;
-	padding-bottom: 5px;
-}
 
-div.connectpics {
-	text-align: center;
-	
-}
 
 footer.footer {
 	background-color: #666666;
-	color: white;
+	color: #F8F8FF;
 	clear: both;
 	text-align: center;
 	font-size: 10px;

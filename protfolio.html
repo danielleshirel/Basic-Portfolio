@@ -2,54 +2,69 @@
 
 <head>
 	<title>
-		Danielle Frankel's Protfolio
+		Danielle Frankel's Portfolio
 	</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 	
 <header>
-	<h2 class="name">Danielle Frankel</h2> 
-	<section class="APC"> 
-		<div>About | Protfolio | Contact</div>
-	</section>
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">Danielle Frankel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="./protfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
 </header>
 
-<div>
 
 
-<section class="Potfolio">
-	<h2>Potfolio</h2>
-	<div class="img">
-		<img src="./assets/images/technics-q-c-640-480-1.jpg" height="130px" width="180px"> 
-		<p class="Hangman">Hangman</p>
+<div class="container">
+  <div class="row">
 
-		<img src="./assets/images/technics-q-c-640-480-2.jpg" height="130px" width="180px"> 
-		<p class="RPGGame"> RPG Game</p>
+    <div class="col-sm-6">
+    	<section class="portfolio">
+    	<h5 class="portfolio">Portfolio</h5>	
+    	<div class="row">
+    		<img class= "portpic" src="./assets/images/technics-q-c-640-480-1.jpg" height="130px" width="185px"> <p class="Hangman"> Hangman</p>
+    		<img class= portpic src="./assets/images/technics-q-c-640-480-2.jpg" height="130px" width="185px"> <p class="RPGGame"> RPG Game</p>
+    	</div>
 
-		<img src="./assets/images/technics-q-c-640-480-5.jpg" height="130px" width="180px"> 
-		<p class="TriviaGame"> Trivia Game</p>
+    	<div class="row">
+			<img class= portpic src="./assets/images/technics-q-c-640-480-5.jpg" height="130px" width="185px"> <p class="TriviaGame"> Trivia Game</p>
+			<img class= portpic src="./assets/images/technics-q-c-640-480-7.jpg" height="130px" width="185px"> <p class="RutgersInfoWidget"> Rutgers Info Widget</p>
+    	</div>
 
-		<img src="./assets/images/technics-q-c-640-480-7.jpg" height="130px" width="180px"> 
-		<p class="RutgersInfoWidget"> Rutgers Info Widget</p>
+    	<div class="row">
+    		<img class= portpic src="./assets/images/technics-q-c-640-480-9.jpg" height="130px" width="185px"><p class="RockPaperScissors"> Rock Paper Scissors</p> 
+    	</div>
+    	</section>
+    </div>
 
-		<img src="./assets/images/technics-q-c-640-480-9.jpg" height="130px" width="180px"> 
-		<p class="RockPaperScissors"> Rock Paper Scissors</p> 
-	</div>
-</section>
-	
-	<aside class="Connect">
-		<h2 class="conwme">Connect With Me</h2>
-			<div class="connectpics"> 
-				<img src="./assets/images/github-128.png" alt="github" height="50px" width="50px"> 
-				<img src="./assets/images/linkedin-128.png" alt="linkedin" height="50px" width="50px">
-				<img src="./assets/images/stackoverflow-128.png" alt="stackoverflow" height="50px" width="50px">
-			</div>
-	</aside>
+    <div class="col-sm-6">
+      <div class="card w-50">
+      <div class="card-body">
+        <h5 class="card-title">Connect With Me</h5>
+        <img src="./assets/images/github-128.png" alt="github" height="50px" width="50px"> 
+        <img src="./assets/images/linkedin-128.png" alt="linkedin" height="50px" width="50px">
+		<img src="./assets/images/stackoverflow-128.png" alt="stackoverflow" height="50px" width="50px">
+      </div>
+    </div>
+    </div>
 
+  </div>
 </div>
+
 
 <footer class="footer">
 	© Copyright 2018 Danielle Frankel
